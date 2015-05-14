@@ -2,7 +2,7 @@ Feature: Obliczenia RafalNav
 
   Scenario: Cuboid RafalNav
     Given I am on homepage
-    When I follow "Pole prostopadloscianu by RafalNav"
+    When I follow "Objętość prostopadłościanu by RafalNav"
     And I fill in "A" with "2"
     And I fill in "B" with "2"
     And I fill in "H" with "2"

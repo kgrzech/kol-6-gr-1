@@ -47,11 +47,11 @@ class RafalNavCuboidController extends Controller
     /**
      * Creates a form...
      *
-     * @param Cuboid $cuboid The object
+     * @param RafalNavCuboid $cuboid The object
      *
      * @return \Symfony\Component\Form\Form The form
      */
-    private function createCreateForm(Cuboid $cuboid)
+    private function createCreateForm(RafalNavCuboid $cuboid)
     {
         $form = $this->createForm(new RafalNavCuboidType(), $cuboid, array(
             'action' => $this->generateUrl('rafalnav_cuboid_wynik'),
