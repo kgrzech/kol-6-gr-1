@@ -13,6 +13,6 @@ fi
 
 rm -rf /app/symfony2app/app/cache/*
 
-#/app/symfony2app/vendor/behat/behat/bin/behat $@
+/app/symfony2app/vendor/behat/behat/bin/behat $@
 
 /app/symfony2app/vendor/phpspec/phpspec/bin/phpspec run
