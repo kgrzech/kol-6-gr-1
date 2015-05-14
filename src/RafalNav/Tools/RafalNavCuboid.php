@@ -49,4 +49,5 @@ class RafalNavCuboid
     {
         return $this->a * $this->b * $this->h;
     }
+    
 }
