@@ -34,7 +34,7 @@ class DorianSergCuboidController extends Controller
         if ($form->isValid()) {
             return $this->render(
                 'AppBundle:DorianSergCuboid:wynik.html.twig',
-                array('wynik' => $cuboid->VCuboid())
+                array('wynik' => $cuboid->objetosc())
             );
         }
         return $this->render(
