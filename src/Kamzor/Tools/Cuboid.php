@@ -2,7 +2,7 @@
 
 namespace Kamzor\Tools;
 
-class cuboid
+class Cuboid
 {
 	private $a;
 	private $b;
