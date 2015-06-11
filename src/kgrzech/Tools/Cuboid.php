@@ -42,4 +42,3 @@ class Cuboid
         return $this->a * $this->b * $this->c;
     }
 }
-}
